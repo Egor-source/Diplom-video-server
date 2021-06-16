@@ -1,0 +1,20 @@
+{
+  "name": "video-server",
+  "version": "1.0.0",
+  "description": "establishing p2p connection between users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Egor Krotov <ego_rk@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "socket.io": "^4.1.2"
+  }
+}
